@@ -33,7 +33,7 @@ function App() {
       if (userName) {
         fetch(`https://api.github.com/users/${userName}`, {
           headers: {
-            Authorization: "token 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",
+            Authorization: "token yourtokenhere",
           },
         })
           .then((res) => res.json())
