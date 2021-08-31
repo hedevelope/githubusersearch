@@ -1,0 +1,42 @@
+.nav{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+  display: flex;
+  font-size: 25px;
+  margin-left: 50vh;
+  margin-right: 50vh;
+  min-height: 10vh;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.search{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  
+}
+
+.card{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 2vh;
+}
+.incard{
+  width: 100%;
+}
+div.ui.icon.input{
+  color: coral;
+}
+.button.ui.button{
+  color: coral;
+}
+.cardbody{
+  color: rgba(13,100,98,120);
+  border-top: 2px solid rgba(0,0,0,.05)!important
+}
